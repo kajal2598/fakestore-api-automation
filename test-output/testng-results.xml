@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T18:19:28 IST" name="Default suite" finished-at="2026-04-20T18:19:34 IST" duration-ms="6273">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T18:19:28 IST" name="Default test" finished-at="2026-04-20T18:19:34 IST" duration-ms="6273">
+      <class name="api.tests.ProductTests">
+        <test-method signature="testGetAllProducts()[pri:1, instance:api.tests.ProductTests@6356695f]" started-at="2026-04-20T18:19:28 IST" name="testGetAllProducts" finished-at="2026-04-20T18:19:30 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllProducts -->
+        <test-method signature="testGetProductById(int)[pri:2, instance:api.tests.ProductTests@6356695f]" started-at="2026-04-20T18:19:30 IST" name="testGetProductById" data-provider="ids" finished-at="2026-04-20T18:19:31 IST" duration-ms="981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductById -->
+        <test-method signature="testGetProductById(int)[pri:2, instance:api.tests.ProductTests@6356695f]" started-at="2026-04-20T18:19:31 IST" name="testGetProductById" data-provider="ids" finished-at="2026-04-20T18:19:32 IST" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductById -->
+        <test-method signature="testGetProductById(int)[pri:2, instance:api.tests.ProductTests@6356695f]" started-at="2026-04-20T18:19:32 IST" name="testGetProductById" data-provider="ids" finished-at="2026-04-20T18:19:32 IST" duration-ms="607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductById -->
+        <test-method signature="testPostProduct()[pri:3, instance:api.tests.ProductTests@6356695f]" started-at="2026-04-20T18:19:32 IST" name="testPostProduct" finished-at="2026-04-20T18:19:33 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostProduct -->
+        <test-method signature="testUpdateProduct()[pri:4, instance:api.tests.ProductTests@6356695f]" started-at="2026-04-20T18:19:33 IST" name="testUpdateProduct" finished-at="2026-04-20T18:19:33 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateProduct -->
+        <test-method signature="testDeleteProduct()[pri:5, instance:api.tests.ProductTests@6356695f]" started-at="2026-04-20T18:19:33 IST" name="testDeleteProduct" finished-at="2026-04-20T18:19:34 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProduct -->
+      </class> <!-- api.tests.ProductTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

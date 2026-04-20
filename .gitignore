@@ -1,0 +1,6 @@
+target/
+log.txt
+.settings/
+.project
+.classpath
+bin/
